@@ -162,6 +162,12 @@ Please contact me at gi2100@nyu.edu to get the models weights as they were too l
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
+### Inference Example
+
+<img src="./inference_example/inference_example.png" alt="Inference Example">
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 ### Built With
 
 [![Python][Python]][Python-url]
