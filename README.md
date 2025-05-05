@@ -12,7 +12,7 @@
 
 <br />
 <div align="center">
-    <img src="./logo/logo.png" alt="Logo">
+    <img src="./logo/logo.png" alt="Logo" width="400" height="400">
 
 <h3 align="center">MINDSCANNER</h3>
 
@@ -42,7 +42,7 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
       <ul>
         <li><a href="#tasks">Tasks</a></li>
         <li><a href="#dataset">Dataset</a></li>
-        <li><a href="#preprocessing">Preprocessing</a></li>
+        <li><a href="#cleaning">Cleaning</a></li>
         <li><a href="#Transformation">Transformation</a></li>
         <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>  
         <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>        
@@ -86,7 +86,7 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 | Brainstorm Project |
 | Find Dataset |
 | EDA |
-| Data Preprocessing |
+| Data Preprocessing and Cleaning |
 | Data Modeling: BiLSTM, CNN+BiLSTM, CNN, BiGRU |
 | Fine-Tune: TODO:? |
 | Model Evaluation |
@@ -118,7 +118,7 @@ Please note that in our pre-processing we excluded the class "mentalhealth" as i
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-### Preprocessing
+### Cleaning
 
 TODO:DIAGRAM FROM PRESENTATION
 
@@ -252,8 +252,8 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
    ```
 
 6. To Run The Jupyter Notebook and Code Files on GPU (2 Main Options):
-   1. Use [Kaggle](https://www.kaggle.com) - Free
-   2. Rent a cloud GPU server like [Tensordock](https://tensordock.com) and SSH to [Jupyter Notebook Extension for VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) - NOT Free
+   1. Use [Kaggle](https://www.kaggle.com) - **Free**
+   2. Rent a cloud GPU server like [Tensordock](https://tensordock.com) and SSH to [Jupyter Notebook Extension for VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) - **NOT Free**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
