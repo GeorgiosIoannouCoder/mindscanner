@@ -45,9 +45,11 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
         <li><a href="#cleaning">Cleaning</a></li>
         <li><a href="#Transformation">Transformation</a></li>
         <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>  
-        <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>        
+        <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>
         <li><a href="#models-performance">Models Performance</a></li>
+        <li><a href="#evaluation-metrics-used">Evaluation Metrics Used</a></li>
         <li><a href="#models-weights">Models Weights</a></li>
+         <li><a href="#inference-example">Inference Example</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -128,6 +130,10 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 
 ### Transformation
 
+***Please note that in our pre-processing we excluded the class "mentalhealth" as it is a more generic class and our models performed better without it.***
+
+***Moreover, we combine the title and text to form our X and use bureddit as our y.***
+
 TODO:ADD TEXT/DIAGRAM
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
@@ -153,6 +159,21 @@ TODO:ADD TEXT/DIAGRAM
 ### Models Performance
 
 TODO: CREATE DIAGRAM
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
+### Evaluation Metrics Used
+
+1. Classification Report
+     - Precision
+     - Recall
+     - F1-score
+     - Accuracy
+     - Macro average
+     - Weighted average
+2. Confusion Matrix
+3. ROC Curve
+4. Precision-Recall Curve
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
