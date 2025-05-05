@@ -12,7 +12,7 @@
 
 <br />
 <div align="center">
-    <img src="./logo/logo.png" alt="Logo" width="400" height="400">
+    <img src="./logo/logo.png" alt="Logo" width="250" height="250">
 
 <h3 align="center">MINDSCANNER</h3>
 
@@ -254,6 +254,10 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
 6. To Run The Jupyter Notebook and Code Files on GPU (2 Main Options):
    1. Use [Kaggle](https://www.kaggle.com) - **Free**
    2. Rent a cloud GPU server like [Tensordock](https://tensordock.com) and SSH to [Jupyter Notebook Extension for VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) - **NOT Free**
+
+7. The Jupyter Notebook [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb) can be run step by step as it include the entire code for the follwoing models: BiLSTM, CNN + BiLSTM, CNN, and BiGRU.
+   
+8. In case you just want to clean the data use the code [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/datasets/clean/clean_data.py) and in case you aslo want to transform it, then use the code [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/datasets/transform/transform_data.py). Please note that you first have to clean adn then transform as the transformation hasppens on the cleaned data. 
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
