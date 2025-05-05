@@ -19,7 +19,7 @@
   <p align="center">
 This project aims to predict a user’s potential <b>mental health condition</b> based on the sentiment and linguistic cues found in <b>Reddit posts</b>. Social media platforms, particularly Reddit, are widely used for expressing emotions and seeking support, often anonymously. Users frequently share personal experiences that may indicate underlying mental health issues such as <b>autism, anxiety, bipolar disorder, borderline personality disorder, dpression, schizophrenia</b>.
 
-To address this, we developed and evaluated <b>deep learning models</b>, including both models built from scratch and <b>fine-tuned transformer-based models</b>. These models were trained on labeled data from dedicated mental health subreddits and optimized for classifying the specific condition associated with each post. We trained and evaluated our models and fine-tuned transformer-based models on two versions of the original data. The first version where we did the cleaning which can found <a href="">here</a> and and second version where we apply the transformation on the clean version of the data which can be found <a href="">here</a>.
+To address this, we developed and evaluated <b>deep learning models</b>, including both models built from scratch and <b>fine-tuned transformer-based models</b>. These models were trained on labeled data from dedicated mental health subreddits and optimized for classifying the specific condition associated with each post. We trained and evaluated our models and fine-tuned transformer-based models on two versions of the original data. The first version where we did the cleaning which can found by running the code <a href="https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/datasets/clean">here</a> and and second version where we apply the transformation on the clean version of the data which can be found by running the code <a href="https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/datasets/transform">here</a>.
 
 Our work contributes to the field of public mental health by leveraging user-generated content to identify potential mental health conditions. Beyond academic value, this project has real-world implications for <b>improving online mental health support</b>. By accurately classifying Reddit posts according to specific mental health conditions, our models can <b>help guide users toward the most appropriate subreddit communities</b>, where they are more likely to receive relevant support, shared experiences, and information. This can <b>enhance early detection, reduce miscommunication, and improve users’ chances of accessing the right resources or treatment</b> pathways within these online communities.
 
@@ -44,13 +44,22 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
         <li><a href="#dataset">Dataset</a></li>
         <li><a href="#preprocessing">Preprocessing</a></li>
         <li><a href="#Transformation">Transformation</a></li>
-        <li><a href="#models-built">Models Built</a></li>
+        <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>  
+        <li><a href="#models-built-with-version-2-of-the-original-data">Models Built With Version 2 of The Original Data</a></li>        
         <li><a href="#models-performance">Models Performance</a></li>
+        <li><a href="#models-weights">Models Weights</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started-with-georgios-ioannou-code">Getting Started With Georgios Ioannou Code</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started-with-zechen-yang-code">Getting Started With Zechen Yang Code</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#setup">Setup</a></li>
@@ -67,7 +76,7 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 
 ## About The Project
 
-  <img src="./logo/logo.png" alt="Logo" width="200" height="50" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./logo/logo.png" alt="Logo" width="200" height="200" style="display: block; margin-left: auto; margin-right: auto;">
 
 ### Tasks
 
@@ -87,7 +96,7 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 
 ### Dataset
 
-**[`Subreddits Dataset For NLP`](https://github.com/GeorgiosIoannouCoder/mindscanners/blob/main/datasets/original/original_dataset.csv)**
+**[`Subreddits Dataset For NLP`](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/datasets/original/original_dataset.csv)**
 - 3 Columns:
   - Title
   - Text
@@ -121,27 +130,33 @@ TODO:ADD TEXT/DIAGRAM
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-### Models Built With Version 1 of The Original Data (Click on the model that you are interested)
+### Models Built With Version 1 of The Original Data
 
-1. [Bidirectional Long Short-Term Memory (BiLSTM)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/bilstm_model_1)
-2. [Convolutional Neural Network (CNN)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/cnn_model_1)
-3. [CNN + BiLSTM](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/cnn_and_bilstm_model_1)
-4. [Bidirectional Gated Recurrent Unit (BiGRU)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/bigru_model_1)
+1. [Bidirectional Long Short-Term Memory (BiLSTM)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/bilstm_model_1)
+2. [Convolutional Neural Network (CNN)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/cnn_model_1)
+3. [CNN + BiLSTM](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/cnn_and_bilstm_model_1)
+4. [Bidirectional Gated Recurrent Unit (BiGRU)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/bigru_model_1)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-### Models Built With Version 2 of The Original Data (Click on the model that you are interested)
+### Models Built With Version 2 of The Original Data
 
-1. [Bidirectional Long Short-Term Memory (BiLSTM)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/bilstm_model_2)
-2. [Convolutional Neural Network (CNN)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/cnn_model_2)
-3. [CNN + BiLSTM](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/neural_networks/cnn_and_bilstm_model_2)
-4. [Bidirectional Gated Recurrent Unit (BiGRU)](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/neural_networks_models/bigru_model_2)
+1. [Bidirectional Long Short-Term Memory (BiLSTM)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/bilstm_model_2)
+2. [Convolutional Neural Network (CNN)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/cnn_model_2)
+3. [CNN + BiLSTM](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/cnn_and_bilstm_model_2)
+4. [Bidirectional Gated Recurrent Unit (BiGRU)](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/neural_network_models/bigru_model_2)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ### Models Performance
 
 TODO: CREATE DIAGRAM
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
+### Models Weights
+
+Please contact me at gi2100@nyu.edu to get the models weights as they were too large to be uploaded in this GitHub repository.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -248,7 +263,7 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
 
 ## Code With Plotly Graphs
 
-The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly interactive graphs can be found [here](https://nbviewer.org/github/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb).
+The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly interactive graphs can be found [here](https://nbviewer.org/github/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb). In case you have issues opening it is due to the fact that there is a lot of output making the .ipynb file size large. THe solution os to download the .ipynb [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb) and open it locally.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
