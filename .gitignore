@@ -1,3 +1,37 @@
 # Datasets that can be created through the code.
 datasets/clean/clean_dataset.csv
 datasets/transform/transform_dataset.csv
+
+# Model weights.
+# bigru_model_1.
+neural_network_models/bigru_model_1/bigru_model_1_weights.weights.h5
+neural_network_models/bigru_model_1/bigru_model_1.h5
+neural_network_models/bigru_model_1/bigru_model_1.keras
+# bigru_model_2.
+neural_network_models/bigru_model_2/bigru_model_2_weights.weights.h5
+neural_network_models/bigru_model_2/bigru_model_2.h5
+neural_network_models/bigru_model_2/bigru_model_2.keras
+# bilstm_model_1.
+neural_network_models/bilstm_model_1/bilstm_model_1_weights.weights.h5
+neural_network_models/bilstm_model_1/bilstm_model_1.h5
+neural_network_models/bilstm_model_1/bilstm_model_1.keras
+# bilstm_model_2.
+neural_network_models/bilstm_model_2/bilstm_model_2_weights.weights.h5
+neural_network_models/bilstm_model_2/bilstm_model_2.h5
+neural_network_models/bilstm_model_2/bilstm_model_2.keras
+# cnn_and_bilstm_model_1.
+neural_network_models/cnn_and_bilstm_model_1/cnn_and_bilstm_model_1_weights.weights.h5
+neural_network_models/cnn_and_bilstm_model_1/cnn_and_bilstm_model_1.h5
+neural_network_models/cnn_and_bilstm_model_1/cnn_and_bilstm_model_1.keras
+# cnn_and_bilstm_model_2.
+neural_network_models/cnn_and_bilstm_model_2/cnn_and_bilstm_model_2_weights.weights.h5
+neural_network_models/cnn_and_bilstm_model_2/cnn_and_bilstm_model_2.h5
+neural_network_models/cnn_and_bilstm_model_2/cnn_and_bilstm_model_2.keras
+# cnn_model_1.
+neural_network_models/cnn_model_1/cnn_model_1_weights.weights.h5
+neural_network_models/cnn_model_1/cnn_model_1.h5
+neural_network_models/cnn_model_1/cnn_model_1.keras
+# cnn_model_2.
+neural_network_models/cnn_model_2/cnn_model_2_weights.weights.h5
+neural_network_models/cnn_model_2/cnn_model_2.h5
+neural_network_models/cnn_model_2/cnn_model_2.keras
