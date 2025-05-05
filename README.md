@@ -113,14 +113,16 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 - 2 Versions of Data:
   - Version 1: Clean
   - Version 2: Clean + Transform
- 
-Please note that in our pre-processing we excluded the class "mentalhealth" as it is a more generic class and our models performed better without it.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ### Cleaning
 
-TODO:DIAGRAM FROM PRESENTATION
+***Please note that in our pre-processing we excluded the class "mentalhealth" as it is a more generic class and our models performed better without it.***
+
+***Moreover, we combine the title and text to form our X and use bureddit as our y.***
+
+<img src="./datasets/clean/data_cleaning_diagram.png" alt="Data Cleaning Diagram" height="500">
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
