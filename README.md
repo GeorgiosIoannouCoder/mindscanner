@@ -296,9 +296,9 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
 
 ## Getting Started With Zechen Yang Code
 
-- To get a local copy of MINDSCANNER Zechen Yang **BERT** code up and running locally follow these simple example steps [here]().
+- To get a local copy of MINDSCANNER Zechen Yang **BERT** code up and running locally follow these simple example steps [here](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/code/zechen_yang/bert).
 
-- To get a local copy of MINDSCANNER Zechen Yang **MISTRAL-7B** code up and running locally follow these simple example steps [here]().
+- To get a local copy of MINDSCANNER Zechen Yang **MISTRAL-7B** code up and running locally follow these simple example steps [here](https://github.com/GeorgiosIoannouCoder/mindscanner/tree/main/code/zechen_yang/mistral7b).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
