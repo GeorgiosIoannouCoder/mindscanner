@@ -23,7 +23,7 @@ To address this, we developed and evaluated <b>deep learning models</b>, includi
 
 Our work contributes to the field of public mental health by leveraging user-generated content to identify potential mental health conditions. Beyond academic value, this project has real-world implications for <b>improving online mental health support</b>. By accurately classifying Reddit posts according to specific mental health conditions, our models can <b>help guide users toward the most appropriate subreddit communities</b>, where they are more likely to receive relevant support, shared experiences, and information. This can <b>enhance early detection, reduce miscommunication, and improve users’ chances of accessing the right resources or treatment</b> pathways within these online communities.
 
-In total, <b>four models</b> from scratch were developed and <b>TODO:? transformer models</b> were fine-tuned and compared to identify the most effective architecture for detecting a user’s potential <b>mental health condition</b> based on the sentiment and linguistic cues found in <b>Reddit posts</b>. Our best-performing model, a <b>TODO:?</b>, achieved an accuracy of <b>TODO:?%</b>, demonstrating strong potential for real-world deployment in both healthcare and business contexts.
+In total, <b>four models</b> from scratch were developed and <b>two transformer models</b> were fine-tuned and compared to identify the most effective architecture for detecting a user’s potential <b>mental health condition</b> based on the sentiment and linguistic cues found in <b>Reddit posts</b>. Our best-performing model, a <b>BERT</b> fine-tuned model, achieved an accuracy of <b>87.3%</b> on the test set, demonstrating that fine-tuned models can perform better than models build from scratch with minimal code.
     <br />
     <a href="https://github.com/GeorgiosIoannouCoder/mindscanner"><strong>Explore the docs »</strong></a>
     <br />
@@ -134,7 +134,11 @@ In total, <b>four models</b> from scratch were developed and <b>TODO:? transform
 
 ***Moreover, we combine the title and text to form our X and use bureddit as our y.***
 
-TODO:ADD TEXT/DIAGRAM
+**Transformation Steps:**
+- Synonym Replacement
+- For words longer than 3 characters, there's a 10% chance they'll be replaced with synonyms
+- Random Typos
+- For words longer than 3 characters, there's a 10% chance of introducing a typing error
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -291,6 +295,10 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Getting Started With Zechen Yang Code
+
+- To get a local copy of MINDSCANNER Zechen Yang **BERT** code up and running locally follow these simple example steps [here]().
+
+- To get a local copy of MINDSCANNER Zechen Yang **MISTRAL-7B** code up and running locally follow these simple example steps [here]().
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
