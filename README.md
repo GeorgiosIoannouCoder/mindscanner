@@ -310,7 +310,7 @@ The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly inter
 
 ## Paper
 
-Project Final Paper is located [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/paper/Ioannou_Georgios_Report.pdf).
+Project Final Paper is located [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/paper/Final_Project_Paper_Team_5_gi2100_zy3398.pdf).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 

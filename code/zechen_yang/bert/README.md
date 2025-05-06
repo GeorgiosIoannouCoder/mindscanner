@@ -86,3 +86,15 @@ All models use the following configuration:
 Each model directory contains:
 - The trained model files
 - `label_mapping.txt` file that maps subreddit names to label IDs 
+
+<div align="center">
+    <img src="./fine_tuned_specifications.png" alt="Fine Tune Specifications">
+</div>
+
+<div align="center">
+    <img src="./fine_tuned_results_1.png" alt="Fine Tune Results 1">
+</div>
+
+<div align="center">
+    <img src="./fine_tuned_results_2.png" alt="Fine Tune Results 2">
+</div>
