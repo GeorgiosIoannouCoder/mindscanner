@@ -162,7 +162,33 @@ In total, <b>four models</b> from scratch were developed and <b>two transformer 
 
 ### Models Performance
 
-TODO: CREATE DIAGRAM
+## Performance Metrics on Version 1 of Data
+
+| Model          | Accuracy (%) | Precision (%) | Recall (%) | F1 (%) |
+|----------------|--------------|---------------|------------|-------|
+| BiLSTM         | 85.3         | 85.3          | 85.3       | 85.3  |
+| CNN + BiLSTM   | 84.7         | 84.7          | 84.7       | 84.7  |
+| CNN            | 84.1         | 84.1          | 84.1       | 84.1  |
+| BiGRU          | 85.2         | 85.2          | 85.2       | 85.2  |
+| **BERT**       | **86.4**     | **86.4**      | **86.4**   | **86.1** |
+
+## Performance Metrics on Version 2 of Data
+
+| Model          | Accuracy (%) | Precision (%) | Recall (%) | F1 (%) |
+|----------------|--------------|---------------|------------|-------|
+| BiLSTM         | 84.5         | 84.5          | 84.5       | 84.5  |
+| CNN + BiLSTM   | 83.8         | 83.8          | 83.8       | 83.8  |
+| CNN            | 83.3         | 83.3          | 83.3       | 83.3  |
+| **BiGRU**      | **84.6**     | **84.6**      | **84.6**   | **84.6** |
+| BERT           | 83           | 81            | 79         | 80    |
+
+## Performance Metrics on Version 2 of Data With Balanced Classes
+
+| Model     | Accuracy (%) | Precision (%) | Recall (%) | F1 (%) |
+|----------|--------------|---------------|------------|-------|
+| **BERT** | **87.3**     | **87.5**      | **87.1**   | **87.3** |
+| Mistral7b | 69.9         | 76.6          | 69.5       | 70.8  |
+
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -310,7 +336,7 @@ The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly inter
 
 ## Paper
 
-Project Final Paper is located [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/paper/Ioannou_Georgios_Report.pdf).
+Project Final Paper is located [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/paper/Final_Project_Paper_Team_5_gi2100_zy3398.pdf).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 

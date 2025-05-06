@@ -51,3 +51,15 @@
 
 ## Output Location
 Training outputs will be saved to `/mnt/mistral_data/mistral_mental_health/`
+
+<div align="center">
+    <img src="./fine_tuned_specifications.png" alt="Fine Tune Specifications">
+</div>
+
+<div align="center">
+    <img src="./fine_tuned_results_1.png" alt="Fine Tune Results 1">
+</div>
+
+<div align="center">
+    <img src="./fine_tuned_results_2.png" alt="Fine Tune Results 2">
+</div>
