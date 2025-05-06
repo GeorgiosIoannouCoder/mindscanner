@@ -90,7 +90,7 @@ In total, <b>four models</b> from scratch were developed and <b>two transformer 
 | EDA |
 | Data Preprocessing and Cleaning |
 | Data Modeling: BiLSTM, CNN+BiLSTM, CNN, BiGRU |
-| Fine-Tune: TODO:? |
+| Fine-Tune: BERT, MISTRAL-7B |
 | Model Evaluation |
 | Write Paper |
 
