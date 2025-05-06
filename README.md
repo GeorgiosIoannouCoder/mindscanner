@@ -304,7 +304,7 @@ NOTE: This code was run on a cloud GPU server from [Tensordock](https://tensordo
 
 ## Code With Plotly Graphs
 
-The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly interactive graphs can be found [here](https://nbviewer.org/github/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb). In case you have issues opening it is due to the fact that there is a lot of output making the .ipynb file size large. THe solution os to download the .ipynb [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb) and open it locally.
+The full code for BiLSTM, CNN + BiLSTM, CNN, and BiGRU with all the Plotly interactive graphs can be found [here](https://nbviewer.org/github/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb). In case you have issues opening it is due to the fact that there is a lot of output making the .ipynb file size large. That is why it was uploaded with git lfs. The solution is to download the .ipynb [here](https://github.com/GeorgiosIoannouCoder/mindscanner/blob/main/code/georgios_ioannou/bilstm_cnnbilstm_cnn_gru.ipynb) and open it locally.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
